@@ -1,0 +1,12 @@
+import java.util.*;
+
+public class ProblemSolution {
+  public static void main(String[] args) {
+  
+    int rollNumber = 10001;
+    int Student = rollNumber;
+    
+     System.out.println(Student);
+    
+   }
+  }
