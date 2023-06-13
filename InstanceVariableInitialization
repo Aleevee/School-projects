@@ -1,0 +1,26 @@
+import java.util.*;
+
+public class ProblemSOlution {
+  private String name;
+  private String designation;
+  
+  public ProblemSolution(String name, String designation) {
+    this.name = name;
+    this.designation = designation;
+    }
+    
+    public void solution() {
+      System.out.println(name);
+      System.out.println(designation);
+      }
+
+public static void main (String[] args)
+{
+  Scanner scanner = new Scanner(System.in);
+  String name = scanner.nextLine();
+  String designation = scanner.nextLine();
+  ProblemSolution problemSolution = new ProblemSolution(name,desgination);
+  problemSolution.solution();
+  }
+}
+      
